@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		04D5931E22B648D100336A9C /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 04D5932122B648D200336A9C /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				04D5932422B6492000336A9C /* ShellScript */,
+			);
+			dependencies = (
+				04D5932322B6490E00336A9C /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		041B1AE422B6AEE600A2E689 /* libDemoStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 041B1AE022B6AEE600A2E689 /* libDemoStaticLib.a */; };
+		048AD0BE22B6317B00CAC105 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048AD0BD22B6317B00CAC105 /* AppDelegate.swift */; };
+		048AD0C022B6317B00CAC105 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048AD0BF22B6317B00CAC105 /* ViewController.swift */; };
+		048AD0C322B6317B00CAC105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048AD0C122B6317B00CAC105 /* Main.storyboard */; };
+		048AD0C522B6317C00CAC105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048AD0C422B6317C00CAC105 /* Assets.xcassets */; };
+		048AD0C822B6317C00CAC105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048AD0C622B6317C00CAC105 /* LaunchScreen.storyboard */; };
+		048AD0D822B635D600CAC105 /* HelloLoggingFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 048AD0D622B635D600CAC105 /* HelloLoggingFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		048AD0DB22B635D600CAC105 /* HelloLoggingFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048AD0D422B635D600CAC105 /* HelloLoggingFramework.framework */; };
+		048AD0DC22B635D600CAC105 /* HelloLoggingFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 048AD0D422B635D600CAC105 /* HelloLoggingFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		048AD0E322B6365200CAC105 /* HelloLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 048AD0E122B6365200CAC105 /* HelloLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		048AD0E422B6365200CAC105 /* HelloLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AD0E222B6365200CAC105 /* HelloLogger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048AD0D922B635D600CAC105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048AD0B222B6317B00CAC105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048AD0D322B635D600CAC105;
+			remoteInfo = HelloLoggingFramework;
+		};
+		04D5932222B6490E00336A9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048AD0B222B6317B00CAC105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048AD0D322B635D600CAC105;
+			remoteInfo = HelloLoggingFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		048AD0E022B635D600CAC105 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				048AD0DC22B635D600CAC105 /* HelloLoggingFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		041B1ABF22B6963400A2E689 /* HelloDemoApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloDemoApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		041B1AE022B6AEE600A2E689 /* libDemoStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDemoStaticLib.a; sourceTree = "<group>"; };
+		041B1AE322B6AEE600A2E689 /* DemoStaticLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoStaticLib.h; sourceTree = "<group>"; };
+		048AD0BA22B6317B00CAC105 /* HelloDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048AD0BD22B6317B00CAC105 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		048AD0BF22B6317B00CAC105 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		048AD0C222B6317B00CAC105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		048AD0C422B6317C00CAC105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048AD0C722B6317C00CAC105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048AD0C922B6317C00CAC105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048AD0D422B635D600CAC105 /* HelloLoggingFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelloLoggingFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		048AD0D622B635D600CAC105 /* HelloLoggingFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloLoggingFramework.h; sourceTree = "<group>"; };
+		048AD0D722B635D600CAC105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048AD0E122B6365200CAC105 /* HelloLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloLogger.h; sourceTree = "<group>"; };
+		048AD0E222B6365200CAC105 /* HelloLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloLogger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048AD0B722B6317B00CAC105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041B1AE422B6AEE600A2E689 /* libDemoStaticLib.a in Frameworks */,
+				048AD0DB22B635D600CAC105 /* HelloLoggingFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048AD0D122B635D600CAC105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041B1AAC22B68DF500A2E689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		041B1AE122B6AEE600A2E689 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				041B1AE222B6AEE600A2E689 /* DemoStaticLib */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		041B1AE222B6AEE600A2E689 /* DemoStaticLib */ = {
+			isa = PBXGroup;
+			children = (
+				041B1AE322B6AEE600A2E689 /* DemoStaticLib.h */,
+			);
+			path = DemoStaticLib;
+			sourceTree = "<group>";
+		};
+		048AD0B122B6317B00CAC105 = {
+			isa = PBXGroup;
+			children = (
+				048AD0BC22B6317B00CAC105 /* HelloDemoApp */,
+				048AD0D522B635D600CAC105 /* HelloLoggingFramework */,
+				048AD0BB22B6317B00CAC105 /* Products */,
+				041B1AAC22B68DF500A2E689 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		048AD0BB22B6317B00CAC105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048AD0BA22B6317B00CAC105 /* HelloDemoApp.app */,
+				048AD0D422B635D600CAC105 /* HelloLoggingFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048AD0BC22B6317B00CAC105 /* HelloDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				041B1AE122B6AEE600A2E689 /* include */,
+				041B1AE022B6AEE600A2E689 /* libDemoStaticLib.a */,
+				048AD0BD22B6317B00CAC105 /* AppDelegate.swift */,
+				048AD0BF22B6317B00CAC105 /* ViewController.swift */,
+				048AD0C122B6317B00CAC105 /* Main.storyboard */,
+				048AD0C422B6317C00CAC105 /* Assets.xcassets */,
+				048AD0C622B6317C00CAC105 /* LaunchScreen.storyboard */,
+				048AD0C922B6317C00CAC105 /* Info.plist */,
+				041B1ABF22B6963400A2E689 /* HelloDemoApp-Bridging-Header.h */,
+			);
+			path = HelloDemoApp;
+			sourceTree = "<group>";
+		};
+		048AD0D522B635D600CAC105 /* HelloLoggingFramework */ = {
+			isa = PBXGroup;
+			children = (
+				048AD0D622B635D600CAC105 /* HelloLoggingFramework.h */,
+				048AD0D722B635D600CAC105 /* Info.plist */,
+				048AD0E122B6365200CAC105 /* HelloLogger.h */,
+				048AD0E222B6365200CAC105 /* HelloLogger.m */,
+			);
+			path = HelloLoggingFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		048AD0CF22B635D600CAC105 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048AD0D822B635D600CAC105 /* HelloLoggingFramework.h in Headers */,
+				048AD0E322B6365200CAC105 /* HelloLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		048AD0B922B6317B00CAC105 /* HelloDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048AD0CC22B6317C00CAC105 /* Build configuration list for PBXNativeTarget "HelloDemoApp" */;
+			buildPhases = (
+				048AD0B622B6317B00CAC105 /* Sources */,
+				048AD0B722B6317B00CAC105 /* Frameworks */,
+				048AD0B822B6317B00CAC105 /* Resources */,
+				048AD0E022B635D600CAC105 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048AD0DA22B635D600CAC105 /* PBXTargetDependency */,
+			);
+			name = HelloDemoApp;
+			productName = HelloDemoApp;
+			productReference = 048AD0BA22B6317B00CAC105 /* HelloDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048AD0D322B635D600CAC105 /* HelloLoggingFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048AD0DD22B635D600CAC105 /* Build configuration list for PBXNativeTarget "HelloLoggingFramework" */;
+			buildPhases = (
+				048AD0CF22B635D600CAC105 /* Headers */,
+				048AD0D022B635D600CAC105 /* Sources */,
+				048AD0D122B635D600CAC105 /* Frameworks */,
+				048AD0D222B635D600CAC105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloLoggingFramework;
+			productName = HelloLoggingFramework;
+			productReference = 048AD0D422B635D600CAC105 /* HelloLoggingFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048AD0B222B6317B00CAC105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Đầu Đất";
+				TargetAttributes = {
+					048AD0B922B6317B00CAC105 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					048AD0D322B635D600CAC105 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					04D5931E22B648D100336A9C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 048AD0B522B6317B00CAC105 /* Build configuration list for PBXProject "HelloDemoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048AD0B122B6317B00CAC105;
+			productRefGroup = 048AD0BB22B6317B00CAC105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048AD0B922B6317B00CAC105 /* HelloDemoApp */,
+				048AD0D322B635D600CAC105 /* HelloLoggingFramework */,
+				04D5931E22B648D100336A9C /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048AD0B822B6317B00CAC105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048AD0C822B6317C00CAC105 /* LaunchScreen.storyboard in Resources */,
+				048AD0C522B6317C00CAC105 /* Assets.xcassets in Resources */,
+				048AD0C322B6317B00CAC105 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048AD0D222B635D600CAC105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04D5932422B6492000336A9C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "FRAMEWORK_NAME=\"HelloLoggingFramework\"\n\nSIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${FRAMEWORK_NAME}.framework\"\n\nDEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${FRAMEWORK_NAME}.framework\"\n\nDEVICE_BCSYMBOLMAP_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos\"\n\nDEVICE_DSYM_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${FRAMEWORK_NAME}.framework.dSYM\"\nSIMULATOR_DSYM_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${FRAMEWORK_NAME}.framework.dSYM\"\n\nUNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal\"\n\nFRAMEWORK=\"${UNIVERSAL_LIBRARY_DIR}/${FRAMEWORK_NAME}.framework\"\n\nOUTPUT_DIR=\"./HelloLoggingFramework-Aggregated\"\n\nXcodebuild -project ${PROJECT_NAME}.Xcodeproj -scheme ${FRAMEWORK_NAME} -sdk iphonesimulator -configuration ${CONFIGURATION} clean install CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator\n\nXcodebuild -project ${PROJECT_NAME}.Xcodeproj -scheme ${FRAMEWORK_NAME} -sdk iphoneos -configuration ${CONFIGURATION} clean install CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos\n\nrm -rf \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${FRAMEWORK}\"\n\nrm -rf \"$OUTPUT_DIR\"\nmkdir -p \"$OUTPUT_DIR\"\n\ncp -r \"${DEVICE_LIBRARY_PATH}/.\" \"${FRAMEWORK}\"\n\nlipo \"${SIMULATOR_LIBRARY_PATH}/${FRAMEWORK_NAME}\" \"${DEVICE_LIBRARY_PATH}/${FRAMEWORK_NAME}\" -create -output \"${FRAMEWORK}/${FRAMEWORK_NAME}\" | echo\ncp -r \"${FRAMEWORK}\" \"$OUTPUT_DIR\"\n\ncp -r \"${DEVICE_DSYM_PATH}\" \"$OUTPUT_DIR\"\nlipo -create -output \"$OUTPUT_DIR/${FRAMEWORK_NAME}.framework.dSYM/Contents/Resources/DWARF/${FRAMEWORK_NAME}\" \\\n\"${DEVICE_DSYM_PATH}/Contents/Resources/DWARF/${FRAMEWORK_NAME}\" \\\n\"${SIMULATOR_DSYM_PATH}/Contents/Resources/DWARF/${FRAMEWORK_NAME}\" || exit 1\n\nUUIDs=$(dwarfdump --uuid \"${DEVICE_DSYM_PATH}\" | cut -d ' ' -f2)\nfor file in `find \"${DEVICE_BCSYMBOLMAP_PATH}\" -name \"*.bcsymbolmap\" -type f`; do\nfileName=$(basename \"$file\" \".bcsymbolmap\")\nfor UUID in $UUIDs; do\nif [[ \"$UUID\" = \"$fileName\" ]]; then\ncp -R \"$file\" \"$OUTPUT_DIR\"\ndsymutil --symbol-map \"$OUTPUT_DIR\"/\"$fileName\".bcsymbolmap \"$OUTPUT_DIR/${FRAMEWORK_NAME}.framework.dSYM\"\nfi\ndone\ndone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048AD0B622B6317B00CAC105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048AD0C022B6317B00CAC105 /* ViewController.swift in Sources */,
+				048AD0BE22B6317B00CAC105 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048AD0D022B635D600CAC105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048AD0E422B6365200CAC105 /* HelloLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048AD0DA22B635D600CAC105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048AD0D322B635D600CAC105 /* HelloLoggingFramework */;
+			targetProxy = 048AD0D922B635D600CAC105 /* PBXContainerItemProxy */;
+		};
+		04D5932322B6490E00336A9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048AD0D322B635D600CAC105 /* HelloLoggingFramework */;
+			targetProxy = 04D5932222B6490E00336A9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		048AD0C122B6317B00CAC105 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048AD0C222B6317B00CAC105 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		048AD0C622B6317C00CAC105 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048AD0C722B6317C00CAC105 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048AD0CA22B6317C00CAC105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		048AD0CB22B6317C00CAC105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048AD0CD22B6317C00CAC105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YR5HDA8YK;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = HelloDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HelloDemoApp",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HelloDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloDemoApp/HelloDemoApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64 arm64e";
+			};
+			name = Debug;
+		};
+		048AD0CE22B6317C00CAC105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YR5HDA8YK;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = HelloDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HelloDemoApp",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HelloDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloDemoApp/HelloDemoApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64 arm64e";
+			};
+			name = Release;
+		};
+		048AD0DE22B635D600CAC105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HelloLoggingFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HelloLoggingFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		048AD0DF22B635D600CAC105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HelloLoggingFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HelloLoggingFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		04D5931F22B648D200336A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04D5932022B648D200336A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048AD0B522B6317B00CAC105 /* Build configuration list for PBXProject "HelloDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048AD0CA22B6317C00CAC105 /* Debug */,
+				048AD0CB22B6317C00CAC105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048AD0CC22B6317C00CAC105 /* Build configuration list for PBXNativeTarget "HelloDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048AD0CD22B6317C00CAC105 /* Debug */,
+				048AD0CE22B6317C00CAC105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048AD0DD22B635D600CAC105 /* Build configuration list for PBXNativeTarget "HelloLoggingFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048AD0DE22B635D600CAC105 /* Debug */,
+				048AD0DF22B635D600CAC105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D5932122B648D200336A9C /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D5931F22B648D200336A9C /* Debug */,
+				04D5932022B648D200336A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048AD0B222B6317B00CAC105 /* Project object */;
+}
